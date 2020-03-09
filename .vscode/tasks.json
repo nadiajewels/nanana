@@ -1,0 +1,52 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "build-cleancss",
+            "path": "themes/introduction/assets/vendor/bulma/",
+            "problemMatcher": [
+                "$eslint-stylish"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "themes/introduction/assets/vendor/bulma/",
+            "problemMatcher": [
+                "$eslint-stylish"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "npm",
+            "script": "build-clean",
+            "path": "themes/introduction/assets/vendor/bulma/",
+            "problemMatcher": [
+                "$eslint-compact"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "npm",
+            "script": "build-autoprefix",
+            "path": "themes/introduction/assets/vendor/bulma/",
+            "problemMatcher": [
+                "$eslint-compact"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "npm",
+            "script": "build-sass",
+            "path": "themes/introduction/assets/vendor/bulma/",
+            "problemMatcher": [
+                "$eslint-compact"
+            ],
+            "group": "build"
+        }
+    ]
+}
